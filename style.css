@@ -15,6 +15,7 @@ html
 body
 {
   font-family: Helvetica, Sans-Serif;
+  
 }
 
 .main-site
@@ -23,6 +24,13 @@ body
 }
 
 /*---------------- ------------------nav area starts-------- -------------------*/
+
+
+.navbar-brand img
+{
+  width: 70px;
+  height: 50px;
+}
 
 .nav-area
 {
@@ -77,22 +85,20 @@ body
 /*---------------- ------------------header area starts-------- -------------------*/
 .header-area
 {
+  
   position: relative;
    width: 100%;
    //padding: 200px 200px 100px 200px;
-  background-image: url('imag/dash/dash.jpg');
+  background-image: url('imag/dash/dash3.jpeg');
   height: 66vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment:fixed;
-  //margin-top: 30px;
+  
 }
 
-.site-button .btn-first
-{
-  //justify-content: center;
-}
+
 
 .button
 {
@@ -249,7 +255,7 @@ body
   position: relative;
    width: 100%;
    padding: 100px 0px;
-   background-color: #b5651d;
+   background-color: #71697a;
 }
 
 .crousel-area h1 ,p
@@ -380,7 +386,7 @@ transform: translate(-50%,-50%);
   //background-color:#01396C;;
   width: 100%;
   //height: 100%;
-  padding: 100px 0px 50px 0px;
+  padding: 100px 0px 0px 0px;
 }
 
 
@@ -429,6 +435,45 @@ transform: translate(-50%,-50%);
 /*----------------------------- iso list area ends ------------------------*/
 
 
+
+
+/*----------------------------- iso carousel area starts ------------------------*/
+
+.iso-crousel-area
+{
+  position: relative;
+  background-color: #666666;
+  padding: 100px 0px;
+
+}
+
+.iso-crousel-area img
+{
+  width: 100%;
+  height:200px; 
+}
+
+.iso-crousel-area .controls-top
+{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%,-50%);
+  //justify-content: center;  
+}
+
+.iso-crousel-area .controls-top a
+{
+  margin:0px 40px ;
+  font-size: 50px;
+
+}
+
+/*----------------------------- iso carousel area ends ------------------------*/
+
+
+
+
 .last-text-area
 {
 
@@ -455,7 +500,7 @@ transform: translate(-50%,-50%);
 {
   width: 100%;
   padding: 100px 0px;
-  background-color: #5e503f
+  background-color: #d9d2b6;
 
 }
 
@@ -538,7 +583,7 @@ transform: translate(-50%,-50%);
 
 .link-area
 {
-  background-color: #b5651d;
+  background-color: #71697a;
   //background-color:;
   padding: 100px 0px;
 }
@@ -577,12 +622,12 @@ transform: translate(-50%,-50%);
 
 
 
-/*---------------- ------------------about area starts -------- -------------------*/
+/*----------------------------------- about area starts ---------------------------*/
 .about-area
 {
   width: 100%;
   padding: 100px 0px;
-  background-color:#eae0d5;
+  background-color:#d9d2b6;
 }
 
 .about-me-area .row 
@@ -606,7 +651,7 @@ transform: translate(-50%,-50%);
 {
  
    height: 400px; 
-  width: 100%;
+  width: auto;
   //max-width: 100%; 
   //height: auto;
   
@@ -629,12 +674,11 @@ transform: translate(-50%,-50%);
 /*----------------------------------- contact area starts -----------------------*/
 
 
-/*==============================Start Contact ==================*/
 
 .Contact-area
 {
   
-  background-color: #b5651d;
+  background-color: #71697a;
 }
 
 .Contact-area-heading h2
@@ -665,25 +709,26 @@ transform: translate(-50%,-50%);
   background:none;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #796878;
+  border-bottom: 1px solid #fff;
   border-radius: 0;
   outline: none;
   padding: 10px 0px;
   font-size:20px;
   font-weight: 300px;
-  color:#796878;
+  color:#fff;
   font-family: Helvetica, Sans-Serif;
 }
 
 .Contact-area .row-area input::placeholder
 {
-  color:#796878;
+  color:#fff;
   //color:#79687;
   font-size: 15px;
 }
 
 .Contact-area .btn-area
 {
+  color: black;
   font-family: Helvetica, Sans-Serif;
   margin-top: 10px;
   padding: 10px 30px;
@@ -691,12 +736,6 @@ transform: translate(-50%,-50%);
   outline: none;
   border: 0;
 }
-
-
-
-/*==============================Ends Contact ==================*/
-
-
 
 /*-------------------------------------contact area starts ------------------------*/
 
@@ -721,6 +760,80 @@ transform: translate(-50%,-50%);
 }
 
 /*---------------- ------------------footer area ends -------- -------------------*/
+
+
+
+
+
+
+
+
+/*---------------- ------------------piracy area strats -------- -------------------*/
+.piracy-area
+{
+  width: 100%;
+  padding: 20px;
+  background-color: #666666;
+}
+
+.piracy-area a
+{
+  color: #000;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+/*---------------- ------------------piracy area ends -------- -------------------*/
+
+
+
+/*---------------- ------------------piracy-text area starts -------- -------------------*/
+
+.privacy-text-area
+{
+  background-color: #796878;
+  padding: 20px 20px;
+
+}
+
+.privacy-text-area h3
+{
+  color: white;
+  padding-bottom: 20px;
+}
+.privacy-text-area p
+{
+  text-align: justify;
+  color: white;
+}
+
+
+/*---------------- ------------------piracy-text area ends -------- -------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 768px)
