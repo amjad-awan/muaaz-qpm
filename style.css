@@ -183,7 +183,7 @@ body
   height: 66vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment:fixed;
 
 }
@@ -249,7 +249,7 @@ body
   position: relative;
    width: 100%;
    padding: 100px 0px;
-   background-color: #5e503f;
+   background-color: #b5651d;
 }
 
 .crousel-area h1 ,p
@@ -271,12 +271,12 @@ bottom: 0;
 left: 50%;
 transform: translate(-50%,-50%);
   //justify-content: center;
-
+  
 }
 
 .controls-top a
 {
-  margin:40px ;
+  margin:0px 40px ;
   font-size: 50px;
 
 }
@@ -296,7 +296,7 @@ transform: translate(-50%,-50%);
   background-image: url('imag/certification/1.jpg');
   height: 66vh;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-attachment:fixed;
 }
@@ -305,17 +305,17 @@ transform: translate(-50%,-50%);
 {
   background-color: #7F7F7F;
   width: 100%;
-  padding: 100px;
+  padding: 100px 0px;
 }
 
-.iso-text-area h1
+.iso-text-area p
 {
   color: #F6F5F3;
   justify-content: center;
   text-align: justify;
 }
 
-.iso-text-area h3
+//.iso-text-area h3
 {
   color: #F6F5F3;
   justify-content: center;
@@ -377,6 +377,7 @@ transform: translate(-50%,-50%);
 .iso-list-area
 {
   background-color: #7F7F7F;
+  //background-color:#01396C;;
   width: 100%;
   //height: 100%;
   padding: 100px 0px 50px 0px;
@@ -537,7 +538,8 @@ transform: translate(-50%,-50%);
 
 .link-area
 {
-  background-color: #22333b;
+  background-color: #b5651d;
+  //background-color:;
   padding: 100px 0px;
 }
 
@@ -623,6 +625,80 @@ transform: translate(-50%,-50%);
 }
 
 /*---------------- ------------------about area ends -------- -------------------*/
+
+/*----------------------------------- contact area starts -----------------------*/
+
+
+/*==============================Start Contact ==================*/
+
+.Contact-area
+{
+  
+  background-color: #b5651d;
+}
+
+.Contact-area-heading h2
+{
+  padding: 3rem 0rem 0rem 0rem;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Helvetica, Sans-Serif;
+
+}
+
+.Contact-area .row-area 
+{
+  display: flex;
+  justify-content: center;
+  padding: 5rem 3rem;
+}
+
+.Contact-area .row-area label
+{
+  font-family: Helvetica, Sans-Serif;
+}
+
+
+.Contact-area .row-area .form-control
+{
+  width: 100%;
+  background:none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #796878;
+  border-radius: 0;
+  outline: none;
+  padding: 10px 0px;
+  font-size:20px;
+  font-weight: 300px;
+  color:#796878;
+  font-family: Helvetica, Sans-Serif;
+}
+
+.Contact-area .row-area input::placeholder
+{
+  color:#796878;
+  //color:#79687;
+  font-size: 15px;
+}
+
+.Contact-area .btn-area
+{
+  font-family: Helvetica, Sans-Serif;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+}
+
+
+
+/*==============================Ends Contact ==================*/
+
+
+
+/*-------------------------------------contact area starts ------------------------*/
 
 
 
@@ -742,6 +818,12 @@ transform: translate(-50%,-50%);
   margin: 0px 20px;
 }
 
+.iso-list-area .row1
+{
+  position: relative;
+  justify-content: center;
+}
+
 }
 
 
@@ -763,6 +845,7 @@ transform: translate(-50%,-50%);
   background-image: url('imag/dash/dash.jpg');
   height: 66vh;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: 100% 100%;
   background-attachment:scroll;
 }
@@ -774,6 +857,7 @@ transform: translate(-50%,-50%);
   background-image: url('imag/certification/1.jpg');
   height: 66vh;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-attachment:scroll;
 }
@@ -787,6 +871,7 @@ transform: translate(-50%,-50%);
   height: 66vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   background-attachment:scroll;
 
 }
